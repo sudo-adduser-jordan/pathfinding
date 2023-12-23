@@ -130,27 +130,31 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="AStar.cpp" />
-    <ClCompile Include="BFS.cpp" />
-    <ClCompile Include="BFSGoal.h" />
-    <ClCompile Include="Demo.cpp" />
-    <ClCompile Include="Dijkstra.cpp" />
-    <ClCompile Include="Graph.cpp" />
-    <ClCompile Include="Grid2D.cpp" />
-    <ClCompile Include="Node.cpp" />
+    <ClCompile Include="algorithms\AStar.cpp" />
+    <ClCompile Include="algorithms\BFS.cpp" />
+    <ClCompile Include="algorithms\Dijkstra.cpp" />
+    <ClCompile Include="Main.cpp" />
     <ClCompile Include="pch.cpp" />
-    <ClCompile Include="Pq.cpp" />
+    <ClCompile Include="structures\Graph.cpp" />
+    <ClCompile Include="structures\Grid2D.cpp" />
+    <ClCompile Include="structures\Node.cpp" />
+    <ClCompile Include="structures\Pq.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="AStar.h" />
-    <ClInclude Include="BFS.h" />
-    <ClInclude Include="Dijkstra.h" />
-    <ClInclude Include="Graph.h" />
-    <ClInclude Include="Grid2D.h" />
-    <ClInclude Include="Node.h" />
+    <ClInclude Include="algorithms\AStar.h" />
+    <ClInclude Include="algorithms\BFS.h" />
+    <ClInclude Include="algorithms\BFSGoal.h" />
+    <ClInclude Include="algorithms\Dijkstra.h" />
     <ClInclude Include="pch.h" />
-    <ClInclude Include="Pq.h" />
     <ClInclude Include="stdc++.h" />
+    <ClInclude Include="structures\Graph.h" />
+    <ClInclude Include="structures\Grid2D.h" />
+    <ClInclude Include="structures\Node.h" />
+    <ClInclude Include="structures\Pq.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include=".gitignore" />
+    <None Include="README.md" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

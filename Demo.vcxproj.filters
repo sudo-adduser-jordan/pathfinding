@@ -1,74 +1,85 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Filter Include="Source Files">
-      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
-      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
-    </Filter>
-    <Filter Include="Header Files">
-      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
-      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
-    </Filter>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="Demo.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="algorithms\AStar.cpp">
+      <Filter>Algorithms</Filter>
     </ClCompile>
-    <ClCompile Include="Grid2D.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="algorithms\BFS.cpp">
+      <Filter>Algorithms</Filter>
     </ClCompile>
-    <ClCompile Include="Graph.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="algorithms\Dijkstra.cpp">
+      <Filter>Algorithms</Filter>
     </ClCompile>
-    <ClCompile Include="BFS.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="structures\Graph.cpp">
+      <Filter>Structures</Filter>
     </ClCompile>
-    <ClCompile Include="Node.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="structures\Grid2D.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="structures\Node.cpp">
+      <Filter>Structures</Filter>
+    </ClCompile>
+    <ClCompile Include="structures\Pq.cpp">
+      <Filter>Algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source</Filter>
     </ClCompile>
     <ClCompile Include="pch.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Dijkstra.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="AStar.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="BFSGoal.h">
-      <Filter>Header Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Pq.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Node.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="algorithms\AStar.h">
+      <Filter>Algorithms\Headers</Filter>
     </ClInclude>
-    <ClInclude Include="Grid2D.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="algorithms\BFS.h">
+      <Filter>Algorithms\Headers</Filter>
     </ClInclude>
-    <ClInclude Include="Graph.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="algorithms\BFSGoal.h">
+      <Filter>Algorithms\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="algorithms\Dijkstra.h">
+      <Filter>Structures\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="structures\Graph.h">
+      <Filter>Structures\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="structures\Grid2D.h">
+      <Filter>Structures\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="structures\Node.h">
+      <Filter>Structures\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="structures\Pq.h">
+      <Filter>Structures\Headers</Filter>
     </ClInclude>
     <ClInclude Include="pch.h">
-      <Filter>Header Files</Filter>
+      <Filter>Source</Filter>
     </ClInclude>
     <ClInclude Include="stdc++.h">
-      <Filter>Header Files</Filter>
+      <Filter>Source</Filter>
     </ClInclude>
-    <ClInclude Include="Dijkstra.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="AStar.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="BFS.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Pq.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include=".gitignore" />
+    <None Include="README.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Algorithms">
+      <UniqueIdentifier>{ef6f5f76-91c0-42d7-a9b3-8e82282b913a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Structures">
+      <UniqueIdentifier>{74236d66-8bf8-4f7d-96a2-a6fb418d0052}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Algorithms\Headers">
+      <UniqueIdentifier>{6d9f7acf-3864-4789-beea-6175f4f430ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Structures\Headers">
+      <UniqueIdentifier>{b88d29cb-fb7e-4c0a-a595-19c0b4d7cbe1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source">
+      <UniqueIdentifier>{244ecdb6-e8d1-40bb-9372-8f3bb6d32bb2}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
 </Project>

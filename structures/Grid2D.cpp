@@ -1,4 +1,5 @@
-#include "pch.h"
+#pragma once
+#include "../pch.h"
 #include "Grid2D.h"
 
 std::array<Node, 4> Grid2D::DIRS = {

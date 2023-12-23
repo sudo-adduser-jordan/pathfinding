@@ -1,11 +1,14 @@
 //#pragma once
 #include "pch.h"
-#include "Graph.h"
-#include "Grid2D.h"
-#include "BFS.h"
-#include "BFSGoal.h"
-#include "Dijkstra.h"
-#include "AStar.h"
+
+#include "./algorithms/AStar.h"
+#include "./algorithms/BFS.h"
+#include "./algorithms/BFSGoal.h"
+#include "./algorithms/Dijkstra.h"
+#include "./structures/Graph.h"
+#include "./structures/Grid2D.h"
+#include "./structures/Node.h"
+#include "./structures/Pq.h"
 
 template<typename Location>
 std::vector<Location> reconstruct_path(

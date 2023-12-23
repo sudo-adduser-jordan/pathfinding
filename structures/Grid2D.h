@@ -1,6 +1,7 @@
 #pragma once
-#include "pch.h"
-#include "Node.h"
+#include "../pch.h"
+
+#include "../structures/Node.h"
 
 struct Grid2D {
     int width; 

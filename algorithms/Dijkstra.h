@@ -1,6 +1,7 @@
 #pragma once
-#include "pch.h"
-#include "Pq.h"
+#include "../pch.h"
+
+#include "../structures/Pq.h"
 
 template<typename Location, typename Graph>
 void dijkstra_search

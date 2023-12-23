@@ -1,6 +1,7 @@
 #pragma once
-#include "pch.h"
-#include "Node.h"
+#include "../pch.h"
+
+#include "../structures/Node.h"
 
 struct Graph {
     std::unordered_map<char, std::vector<char> > edges;

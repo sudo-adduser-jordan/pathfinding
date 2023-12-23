@@ -1,5 +1,6 @@
 #pragma once
-#include "pch.h"
+#include "../pch.h"
+
 
 template<typename T, typename priority_t>
 struct PriorityQueue {
